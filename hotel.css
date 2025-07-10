@@ -1,0 +1,129 @@
+.root{
+    --color:rgb(3, 3, 43);
+}
+h1{
+    text-align: center;
+    color: blue;
+    box-shadow: 0 0 0 2px rgb(3, 3, 43);
+    background-color: cyan;
+    cursor: pointer;
+   padding: 5px;
+}
+h1:hover{
+    color: red;
+    box-shadow:0 0 0  5px rgb(67, 9, 121);
+
+}
+
+nav{
+    width: 800px;
+    color: red;
+    text-align: center;
+    margin-right: 10%;
+    padding: 5px;
+background-color: black;
+
+
+}
+a{
+    text-decoration: none;
+    font-size: large;
+    color:var(--color) ;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 0 0 5px rgb(9, 9, 59);
+}
+button{
+    color: rgb(218, 40, 40);
+    background-color: rgb(3, 3, 43);
+}
+button:hover{
+    background-color: blue;
+}
+#content{
+    width: 100%;
+    height: 450vh;
+    background-image: url(hotel.jpg);
+}
+.welc{
+    text-align: end;
+    position: absolute;
+    left: 50px;
+    font-size: 50px;
+}
+.sign{
+    width: 400px;
+    height: fit-content;
+    position: absolute;
+    right: 40%;
+    top: 30%;
+    box-shadow: 0 0 0 0 10px blueviolet;
+    text-align: center;
+    word-wrap: break-word;
+    background-image: url(r1.jpg);
+    color: blue;
+    font-size: large;
+    border-radius: 20px;
+}
+input,label{
+    padding: 5px;
+    margin: 5px;
+}
+input:focus{
+    border:2px solid blue;
+}
+input:hover{
+    padding: 10px;
+    background-color: blue;
+    color: red;font-size: large;
+    border: 1px solid red;
+}
+#s1,option{
+    position: absolute;
+    top:60%;
+    left: 15px;
+}
+select,option{
+color: blue;
+background-color: aqua;
+}
+select:hover{
+    background-color: red;
+}
+option:focus{
+    background-color: red;
+}
+.m1{
+    width: 200px;
+    height: 100px;
+    margin-bottom: 5px;
+}
+.m1:focus{
+    text-align: start;
+    unicode-bidi: plaintext;
+}
+.p1{
+    text-align: center;
+    font-size: 30px;
+    color: red;
+
+}
+.features{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    position: absolute;
+    top: 280%;
+}
+.f{
+    text-align: center;
+    color:rgb(9, 9, 92);
+    background-color: red;
+    padding: 3px;
+}
+
